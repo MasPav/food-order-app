@@ -1,9 +1,10 @@
 import './App.css';
+import Button from './components/ui/button/Button';
 
 function App() {
   return (
     <div>
-      <button type='button' className='bg-primary'>Add User</button>
+      <Button className="bg-primary">Add User</Button>
     </div>
   );
 }

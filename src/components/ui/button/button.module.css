@@ -1,0 +1,5 @@
+button {
+    box-shadow: theme('boxShadow.md');
+    border-radius: theme('borderRadius.md');
+    padding: theme('padding.2');
+  }

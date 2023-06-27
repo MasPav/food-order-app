@@ -2,13 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#FFD370',
+        'accent': '#00C9B1'
+      }
+    },
     fontFamily: {
       sans: ['Belanosima'] 
-    },
-    colors: {
-      'primary': '#FFD370',
-      'accent': '#00C9B1'
     }
   },
   plugins: [],
